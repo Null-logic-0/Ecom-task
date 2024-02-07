@@ -1,0 +1,213 @@
+.footer-newslatter {
+    padding: 40px 10px;
+    background-color: #F7F7F7;
+}
+
+.news-latter__main-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 1238px) {
+    .news-latter__main-wrapper {
+        justify-content: center;
+    }
+
+    .newslatter__text,
+    footer h2 {
+        text-align: center;
+    }
+}
+
+.newslatter__right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.newslatter__form {
+    position: relative;
+    max-width: 536px;
+    width: 100%;
+}
+
+.newslatter__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    max-width: 448px;
+    width: 100%;
+    line-height: 21px;
+}
+
+.email-input {
+    max-width: 492px;
+    width: 100%;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+    border-radius: 46px;
+    padding: 14px 14px;
+    color: black;
+    outline: none;
+}
+
+.email-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.newslatter__logos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.newslatter__logo {
+    padding: 11px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.newslatter__logo i {
+    font-size: 18px;
+    color: #4D4D4D;
+    transition: all 0.2s;
+}
+
+.newslatter__logo:hover {
+    background-color: #00B207;
+}
+
+.newslatter__logo:hover i {
+    color: white;
+}
+
+.footer-main {
+    background-color: #1A1A1A;
+    padding: 60px 10px 0px;
+}
+
+.main__top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1089px) {
+    .main__top {
+        justify-content: center;
+        gap: 40px;
+    }
+}
+
+.main__top-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.main__top-left p {
+    font-size: 14px;
+    color: #808080;
+    max-width: 336px;
+    width: 100%;
+}
+
+.main__contacts {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main__contacts p {
+    width: fit-content;
+    font-size: 16px;
+    color: #808080;
+}
+
+.main__contacts a {
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 1.5px 0px 0px #20B526;
+    padding: 6px 0;
+}
+
+.main__list p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.main__list ul li a {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #999;
+    transition: all 0.2s;
+}
+
+.main__list ul li a:hover {
+    color: white;
+}
+
+.main__lists {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.main__bottom {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -1px 0px 0px #333;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 660px) {
+    .main__bottom {
+        justify-content: center;
+    }
+}
+
+.main__bottom p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.bottom__credit-card-logos {
+    display: flex;
+    gap: 8px;
+}
